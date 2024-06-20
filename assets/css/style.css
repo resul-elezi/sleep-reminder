@@ -2,4 +2,18 @@
     /* dark mode */
     --background: #16161a;
     --headline: #fffffe;
+    --paragraph: #94a1b2;
+    --button: #7f5af0;
+    --btn-text: #fffffe;
+    --stroke: #010101;
+    --main: #fffffe;
+    --highlight: #7f5af0;
+    --secondary: #72757e;
+    --tertiary: #2cb67d;
+
+    /* light mode  */
+
+    --background-l: #fffffe;
+    --headline-l: #2b2c34;
+    --paragraph-l: #2b2c34;
 }
