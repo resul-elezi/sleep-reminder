@@ -11,9 +11,44 @@
     --secondary: #72757e;
     --tertiary: #2cb67d;
 
+    /* second section  */
+
+    --background-ss: #242629;
+    --headline-ss: #fffffe;
+    --subheading: #94a1b2;
+    --card-bgr: #16161a;
+    --card-heading: #fffffe;
+    --card-paragraph: #94a1b2;
+    --stroke-ss: #010101;
+    --main-ss: #fffffe;
+    --highlight-ss: #7f5af0;
+    --secondary-ss: #72757e;
+    --tertiary-ss: #2cb67d;
+
     /* light mode  */
 
     --background-l: #fffffe;
     --headline-l: #2b2c34;
     --paragraph-l: #2b2c34;
+    --button-l: #7f5af0;
+    --btn-text-l: #fffffe;
+    --stroke-l: #2b2c34;
+    --main-l: #fffffe;
+    --highlight-l: #7f5af0;
+    --secondary-l: #d1d1e9;
+    --tertiary-l: #e45858;
+
+    /* second section  */
+
+    --background-l-ss: #fffffe;
+    --headline-l-ss: #2b2c34;
+    --subheading-l-ss: #2b2c34;
+    --card-bgr-l-ss: #d1d1e9;
+    --card-heading-l-ss: #2b2c34;
+    --card-paragraph-l-ss: #2b2c34;
+    --stroke-l-ss: #2b2c34;
+    --main-l-ss: #fffffe;
+    --highlight-l-ss: #7f5af0;
+    --secondary-l-ss: #d1d1e9;
+    --tertiary-l-ss: #e45858;
 }
