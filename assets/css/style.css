@@ -52,28 +52,41 @@
     --secondary-l-ss: #d1d1e9;
     --tertiary-l-ss: #e45858;
 }
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
+    max-width: 90rem;
     background: var(--background);
+    margin: 0 auto;
 }
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 1.5rem 3rem;
+    gap: 2rem;
 }
 .header-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    flex: 1;
-
+    gap: 2rem;
+    width: 70%;
+}
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 header img {
-    width: 20%;
+    width: 2.5rem;
 }
 .logo {
     max-width: 100%;
-    width: 100%;
+    /* width: 100%; */
     height: auto;
-    flex: 1;
 }
