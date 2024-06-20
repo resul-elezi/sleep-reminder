@@ -52,3 +52,28 @@
     --secondary-l-ss: #d1d1e9;
     --tertiary-l-ss: #e45858;
 }
+
+body {
+    background: var(--background);
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+
+}
+header img {
+    width: 20%;
+}
+.logo {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    flex: 1;
+}
