@@ -8,6 +8,7 @@ function showTime() {
     let minutes = now.getMinutes();
     let seconds = now.getSeconds();
 
+    hours = (hours < 10 ? "0" : "") + hours;
     minutes = (minutes < 10 ? "0" : "") + minutes;
     seconds = (seconds < 10 ? "0" : "") + seconds;
 
