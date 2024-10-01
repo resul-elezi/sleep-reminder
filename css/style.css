@@ -57,7 +57,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html {
+    /* font-family:; */
+    color: var(--headline);
+}
 body {
     max-width: 90rem;
     background: var(--background);
