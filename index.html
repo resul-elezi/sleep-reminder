@@ -1,51 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sleep Reminder</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <script defer src="js/script.js"></script>
-    <link rel="icon" href="favicon.ico" sizes="any">
-    <link rel="icon" href="icon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-</head>
-<body>
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link rel="icon" href="icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+  </head>
+  <body>
     <header>
-        <div class="logo-wrapper">
-            <img src="assets/images/logo-no-background.svg" alt="Logo" class="logo">
-            <p>Sleep Reminder</p>
-        </div>
-        <nav class="header-nav">
-            <a href="/">Home</a>
-            <a href="/">Find My Location</a>
-            <a href="/">Explore</a>
-            <input type="search" name="search" id="search">
-        </nav>
-        <div class="current-time-div">
-            <span id="current-time" class="current-time"></span>
-        </div>
+      <div class="logo-wrapper">
+        <img
+          src="assets/images/logo-no-background.svg"
+          alt="Logo"
+          class="logo"
+        />
+        <p>Sleep Reminder</p>
+      </div>
+      <nav class="header-nav">
+        <a href="/">Home</a>
+        <a href="/">Find My Location</a>
+        <a href="/">Explore</a>
+        <input type="search" name="search" id="search" />
+      </nav>
+      <div class="current-time-div">
+        <span id="current-time" class="current-time"></span>
+      </div>
     </header>
     <main>
-        <section class="sleep-time-section">
-            <form action="/">
-                <fieldset>
-                    <legend>Sleep Time</legend>
-                        <label for="sleep-time-input">Please enter the time you would like to go to bed:</label><br>
-                        <input type="time" id="sleep-time-input"><br>
-                        <button id="submit-btn" type="submit">Submit</button>
-                </fieldset>
-            </form>
-        </section>
-        <section class="sleep-amount-section"></section>
-        <section class="wake-up-section"></section>
-        <section>
-            <p id="output-time"></p>
-        </section>
+      <section class="sleep-time-section">
+        <form action="/">
+          <fieldset>
+            <legend>Sleep Time</legend>
+            <label for="sleep-time-input"
+              >Please enter the time you would like to go to bed:</label
+            ><br />
+            <input type="time" id="sleep-time-input" /><br />
+            <button id="submit-btn" type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </section>
+      <section class="sleep-amount-section">
+        <fieldset>
+          <label for="sleep-amount-input"
+            >Please enter the numbers of hours of sleep you would like to
+            have:</label
+          ><br />
+          <input type="number" id="sleep-amount-input" min="1" max="24" /><br />
+          <button id="sleep-amount-btn" type="submit">Submit</button>
+        </fieldset>
+      </section>
+      <section class="wake-up-section">
+        <p id="output-wake-up"></p>
+      </section>
+      <section>
+        <p id="output-amount"></p>
+      </section>
+      <section>
+        <p id="output-time"></p>
+      </section>
     </main>
     <footer></footer>
-</body>
+  </body>
 </html>

@@ -93,3 +93,25 @@ header img {
     /* width: 100%; */
     height: auto;
 }
+
+fieldset {
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 20px 0;
+}
+
+legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--headline);
+}
+
+main {
+    padding: 2rem;
+}
+
+p {
+    color: var(--paragraph);
+    font-size: 1.125rem;
+    line-height: 2rem;
+}
