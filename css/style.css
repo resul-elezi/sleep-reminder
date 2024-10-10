@@ -11,9 +11,9 @@
     --secondary: #72757e;
     --tertiary: #2cb67d;
 
-    /* second section  */
+    /* dark mode sunset/sunrise section  */
 
-    --background-ss: #242629;
+    --background-ss: #222225;
     --headline-ss: #fffffe;
     --subheading: #94a1b2;
     --card-bgr: #16161a;
@@ -38,9 +38,9 @@
     --secondary-l: #d1d1e9;
     --tertiary-l: #e45858;
 
-    /* second section  */
+    /* light mode sunset/sunrise section  */
 
-    --background-l-ss: #fffffe;
+    --background-l-ss: #f2f2f1;
     --headline-l-ss: #2b2c34;
     --subheading-l-ss: #2b2c34;
     --card-bgr-l-ss: #d1d1e9;
