@@ -38,16 +38,15 @@ function toggleTheme() {
     isDarkMode = !isDarkMode;
     document.documentElement.setAttribute("data-theme", isDarkMode ? "dark" : "light");
     themeIcon.src = isDarkMode ? "assets/images/icon-sun.svg" : "assets/images/icon-moon.svg";
-    logoIcon.src = isDarkMode ? "assets/images/logo-no-background-light.svg" : "assets/images/logo-no-background.svg";
+    logoIcon.src = isDarkMode ? "assets/images/logo-no-background.svg" : "assets/images/logo-no-background-light.svg";
   }
   
   function initializeTheme() {
     themeIcon.src = isDarkMode ? "assets/images/icon-sun.svg" : "assets/images/icon-moon.svg";
-    logoIcon.src = isDarkMode ? "assets/images/logo-no-background-light.svg" : "assets/images/logo-no-background.svg";
+    logoIcon.src = isDarkMode ? "assets/images/logo-no-background.svg" : "assets/images/logo-no-background-light.svg";
   }
   
   initializeTheme();
-  
   themeToggle.addEventListener('click', (e) => {
     e.preventDefault();
     toggleTheme();
