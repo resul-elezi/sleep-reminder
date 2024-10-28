@@ -1,56 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sleep Reminder</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script defer src="js/script.js"></script>
-    <link rel="icon" href="favicon.ico" sizes="any">
-    <link rel="icon" href="icon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-</head>
-<body>
-    <header>
-        <div class="logo-wrapper">
-                <img src="assets/images/logo-no-background-light.svg" alt="logo" id="logo">
-            <p>Sleep Reminder</p>
-        </div>
-        <nav class="header-nav">
-            <a href="/">Home</a>
-            <a href="/">Find My Location</a>
-            <a href="/">Explore</a>
-            <input type="search" name="search" id="search">
-        </nav>
-        <div class="light-dark">
-            <a href="#" id="toggleTheme">
-                <img id="themeIcon" src="assets/images/icon-sun.svg" alt="Toggle Theme" />
-            </a>
-        </div>
-        <div class="current-time-div">
-            <span id="current-time" class="current-time"></span>
-        </div>
-    </header>
-    <main>
-        <section class="sleep-time-section">
-            <form action="/">
-                <fieldset>
-                    <legend>Sleep Time</legend>
-                        <label for="sleep-time-input">Please enter the time you would like to go to bed:</label><br>
-                        <input type="time" id="sleep-time-input"><br>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sleep Reminder</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <script defer src="js/script.js"></script>
+        <link rel="icon" href="favicon.ico" sizes="any" />
+        <link rel="icon" href="icon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+        <link rel="manifest" href="site.webmanifest" />
+    </head>
+    <body>
+        <header>
+            <div class="logo-wrapper">
+                <img src="assets/images/logo-no-background-light.svg" alt="logo" id="logo" />
+                <p>Sleep Reminder</p>
+            </div>
+            <nav class="header-nav">
+                <a href="/">Home</a>
+                <a href="/">Find My Location</a>
+                <a href="/">Explore</a>
+                <input type="search" name="search" id="search" />
+            </nav>
+            <div class="light-dark">
+                <a href="#" id="toggleTheme">
+                    <img id="themeIcon" src="assets/images/icon-sun.svg" alt="Toggle Theme" />
+                </a>
+            </div>
+            <div class="current-time-div">
+                <span id="current-time" class="current-time"></span>
+            </div>
+        </header>
+        <main>
+            <section class="sleep-time-section">
+                <form action="/">
+                    <fieldset>
+                        <legend>Sleep Time</legend>
+                        <label for="sleep-time-input">Please enter the time you would like to go to bed:</label><br />
+                        <input type="time" id="sleep-time-input" /><br />
                         <button id="submit-btn" type="submit">Submit</button>
-                </fieldset>
-            </form>
-        </section>
-        <section class="sleep-amount-section"></section>
-        <section class="wake-up-section"></section>
-        <section>
-            <p id="output-time"></p>
-        </section>
-    </main>
-    <footer></footer>
-</body>
+                    </fieldset>
+                </form>
+            </section>
+            <section class="sleep-amount-section"></section>
+            <section class="wake-up-section"></section>
+            <section>
+                <title id="output-time"></title>
+                <div id="day-progress"></div>
+            </section>
+        </main>
+        <footer></footer>
+    </body>
 </html>
