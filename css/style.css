@@ -53,7 +53,8 @@
     --tertiary-l-ss: #e45858;
 }
 :root[data-theme="dark"] {
-  --color-background: var(--background);
+  --background-color: var(--background);
+  --background-color-ss: var(--background-ss)
   /* --color-background-soft: var(--vt-c-black-soft);
   --color-background-mute: var(--vt-c-black-mute);
   --color-border: var(--vt-c-divider-dark-2);
@@ -64,7 +65,8 @@
 
 
 :root[data-theme="light"] {
-    --color-background: var(--background-l);
+    --background-color: var(--background-l);
+    --background-color-ss: var(--background-l-ss);
     /* --color-background-soft: var(--vt-c-white-soft);
     --color-background-mute: var(--vt-c-white-mute);
     --color-border: var(--vt-c-divider-light-2);
@@ -88,7 +90,7 @@ h1 {
 }
 body {
     max-width: 90rem;
-    background: var(--color-background);
+    background: var(--background-color);
     margin: 0 auto;
 }
 header {
@@ -117,4 +119,7 @@ header img {
     max-width: 100%;
     /* width: 100%; */
     height: auto;
+}
+.sunrise-sunset {
+    background: var(--background-color-ss);
 }
