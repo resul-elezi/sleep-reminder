@@ -12,6 +12,6 @@ The app should have at least the following features:
 - Bedtime
 - Minimum sleep duration in hours
 - Desired wake-up time
-- Sunset and sunrise times for the user's region
+- Sunrise and sunset times for the user's region
 - Light/Dark mode
 
