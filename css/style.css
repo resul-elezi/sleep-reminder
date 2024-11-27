@@ -54,11 +54,7 @@
 }
 :root[data-theme="dark"] {
   --background-color: var(--background);
-  --background-color-ss: var(--background-ss)
-  /* --color-background-soft: var(--vt-c-black-soft);
-  --color-background-mute: var(--vt-c-black-mute);
-  --color-border: var(--vt-c-divider-dark-2);
-  --color-border-hover: var(--vt-c-divider-dark-1); */
+  --background-color-ss: var(--background-ss);
   --heading-color: var(--headline);
   --text-color: var(--paragraph);
 }
@@ -67,10 +63,6 @@
 :root[data-theme="light"] {
     --background-color: var(--background-l);
     --background-color-ss: var(--background-l-ss);
-    /* --color-background-soft: var(--vt-c-white-soft);
-    --color-background-mute: var(--vt-c-white-mute);
-    --color-border: var(--vt-c-divider-light-2);
-    --color-border-hover: var(--vt-c-divider-light-1); */
     --heading-color: var(--headline-l);
     --text-color: var(--paragraph-l);
   }
