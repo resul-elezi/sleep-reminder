@@ -59,8 +59,8 @@
   --color-background-mute: var(--vt-c-black-mute);
   --color-border: var(--vt-c-divider-dark-2);
   --color-border-hover: var(--vt-c-divider-dark-1); */
-  --color-heading: var(--headline);
-  --color-text: var(--paragraph);
+  --heading-color: var(--headline);
+  --text-color: var(--paragraph);
 }
 
 
@@ -71,8 +71,8 @@
     --color-background-mute: var(--vt-c-white-mute);
     --color-border: var(--vt-c-divider-light-2);
     --color-border-hover: var(--vt-c-divider-light-1); */
-    --color-heading: var(--headline-l);
-    --color-text: var(--paragraph-l);
+    --heading-color: var(--headline-l);
+    --text-color: var(--paragraph-l);
   }
   
 
@@ -83,7 +83,7 @@
 }
 html {
     /* font-family:; */
-    color: var(--color-text);
+    color: var(--text-color);
 }
 h1 {
     color: var(--card-heading);
