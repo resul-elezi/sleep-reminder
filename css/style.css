@@ -3,6 +3,7 @@
     --background: #16161a;
     --headline: #fffffe;
     --paragraph: #94a1b2;
+    --input-bgr: #242629;
     --button: #7f5af0;
     --btn-text: #fffffe;
     --stroke: #010101;
@@ -28,16 +29,16 @@
     --background-l: #fffffe;
     --headline-l: #2b2c34;
     --paragraph-l: #2b2c34;
-    --button-l: #7f5af0;
+    --button-l: #6246ea;
     --btn-text-l: #fffffe;
     --stroke-l: #2b2c34;
     --main-l: #fffffe;
-    --highlight-l: #7f5af0;
+    --highlight-l: #6246ea;
     --secondary-l: #d1d1e9;
     --tertiary-l: #e45858;
     
     /* light mode sunset/sunrise section  */
-    --background-l-ss: #f2f2f1;
+    --background-l-ss: #fffffe;
     --headline-l-ss: #2b2c34;
     --subheading-l-ss: #2b2c34;
     --card-bgr-l-ss: #d1d1e9;
@@ -45,7 +46,7 @@
     --card-paragraph-l-ss: #2b2c34;
     --stroke-l-ss: #2b2c34;
     --main-l-ss: #fffffe;
-    --highlight-l-ss: #7f5af0;
+    --highlight-l-ss: #6246ea;
     --secondary-l-ss: #d1d1e9;
     --tertiary-l-ss: #e45858;
 
@@ -64,6 +65,9 @@ body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
     line-height: 1.6;
     transition: background-color var(--transition-speed), color var(--transition-speed);
+}
+input {
+    outline: none;
 }
 
 /* Theme Switching */
@@ -85,7 +89,7 @@ body {
     }
 
     & #search {
-        background-color: var(--background);
+        background-color: var(--input-bgr);
         border-color: var(--stroke);
         color: var(--headline);
     }
@@ -94,7 +98,14 @@ body {
         background-color: var(--button);
         color: var(--btn-text);
     }
-
+    & .sleep-time-section {
+        background-color: var(--input-bgr);
+    }
+    & #sleep-time-input {
+        background-color: var(--input-bgr);
+        border-color: var(--paragraph);
+        color: var(--headline);
+    }
     /* Sunrise/Sunset Section */
     & .sunrise-sunset {
         background-color: var(--background-ss);
@@ -129,7 +140,9 @@ body {
         background-color: var(--button-l);
         color: var(--btn-text-l);
     }
-
+    & .sleep-time-section {
+        background-color: rgba(255,255,255,0.1);
+    }
     /* Sunrise/Sunset Section */
     & .sunrise-sunset {
         background-color: var(--background-l-ss);
@@ -196,9 +209,7 @@ main {
     margin: 2rem auto;
     padding: 0 1rem;
 }
-
 .sleep-time-section {
-    background-color: rgba(255,255,255,0.1);
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
